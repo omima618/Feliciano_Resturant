@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliciano</title>
+    <link rel="icon" href="images/service-2.png">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap icons cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- Aos Library cdn link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font family "Great Vibes" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- font family "poponis" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="p-0">
+        <div class="container p-lg-0">
+            <ul class="d-lg-flex justify-content-between align-items-center p-1 m-0">
+                <li><i class="bi bi-telephone-fill"></i> + 1235 2355 98</li>
+                <li><i class="bi bi-send-fill"></i> Feliciano@email.com</li>
+                <li>Open hours: Monday - Sunday 8:00AM - 9:00PM</li>
+            </ul>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container py-2">
+            <a href="index.html" class="res-logo navbar-brand text-white">Feliciano</a>
+            <button class="navbar-toggler  shadow-none border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#nav-list">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse links-list" id="nav-list">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link text-white">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link text-white">About</a></li>
+                    <li class="nav-item"><a href="menu.html" class="nav-link text-white">Menu</a></li>
+                    <li class="nav-item"><a href="blogs.html" class="nav-link text-white">Stories</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact</a></li>
+                    <li class="book-btn nav-item px-2 rounded-2"><a href="booking.html" class="nav-link text-white">Book
+                            a table</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- slider -->
+    <section class="slider slide carousel carousel-fade" id="slider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active slide-one" data-bs-interval="5000">
+                <div class="item-overlay"></div>
+                <div class="caption text-center position-absolute top-50 start-50">
+                    <h2 class="res-name">Feliciano</h2>
+                    <p class="slide-desc">NUTRITIOUS & TASTY</p>
+                </div>
+            </div>
+            <div class="carousel-item slide-two" data-bs-interval="5000">
+                <div class="item-overlay"></div>
+                <div class="caption text-center position-absolute top-50 start-50">
+                    <h2 class="res-name">Feliciano</h2>
+                    <p class="slide-desc">DELICIOUS SPECIALTIES</p>
+                </div>
+            </div>
+            <div class="carousel-item slide-three" data-bs-interval="5000">
+                <div class="item-overlay"></div>
+                <div class="caption text-center position-absolute top-50 start-50">
+                    <h2 class="res-name">Feliciano</h2>
+                    <p class="slide-desc">BEST RESTURANT</p>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <button type="button" class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+    </section>
+    <!-- dishes section  -->
+    <section class="dishes text-white pt-5 py-lg-2">
+        <div class=" container">
+            <div class="row dishes-container">
+                <div class="col-lg-3 col-sm-6 col-12 mb-2 mb-lg-0 d-flex flex-column justify-content-center align-items-center"
+                    data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1500">
+                    <img src="images/dish-1.webp" alt="dish" class="dish-img mb-2">
+                    <h4>Grilled Beef with potatoes</h4>
+                    <p>Meat, Potatoes, Rice, Tomatoe</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-2 mb-lg-0 d-flex flex-column justify-content-center align-items-center"
+                    data-aos="zoom-in-up" data-aos-delay="150" data-aos-duration="1500">
+                    <img src="images/dish-2.webp" alt="dish" class="dish-img mb-2">
+                    <h4>Grilled Beef with potatoes</h4>
+                    <p>Meat, Potatoes, Rice, Tomatoe</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-2 mb-lg-0 d-flex flex-column justify-content-center align-items-center"
+                    data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1500">
+                    <img src="images/dish-3.webp" alt="dish" class="dish-img mb-2">
+                    <h4>Grilled Beef with potatoes</h4>
+                    <p>Meat, Potatoes, Rice, Tomatoe</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-2 mb-lg-0  d-flex flex-column justify-content-center align-items-center"
+                    data-aos="zoom-in-up" data-aos-delay="250" data-aos-duration="1500">
+                    <img src="images/dish-4.webp" alt="dish" class="dish-img mb-2">
+                    <h4>Grilled Beef with potatoes</h4>
+                    <p>Meat, Potatoes, Rice, Tomatoe</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-light text-center text-md-start" data-aos="flip-left"
+                    data-aos-duration="2000">
+                    <div class=" special-heading">
+                        <h2 class="p-0">About</h2>
+                        <p class="m-0">Feliciano Restaurant</p>
+                    </div>
+                    <p class="fs-4 mt-5">
+                        A small river named Duden flows by their place and supplies it with the necessary regelialia. It
+                        is a paradisematic
+                        country, in which roasted parts of sentences fly into your mouth.
+                    </p>
+                    <p class="time-hours fs-5">
+                        Mon - Fri <span class="fw-bold fs-4">8 AM - 11 PM</span>
+                    </p>
+                    <p class="phone-num fw-bold fs-4">+ 1235 2355 98</p>
+                </div>
+                <div class="row col-12 col-lg-6 mx-auto">
+                    <div class="col-6 ps-0 pe-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+                        <img src="images/about-1.webp" alt="about-resturant" class="about-img">
+                    </div>
+                    <div class="col-6 px-0" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="200">
+                        <img src="images/about-2.webp" alt="about-resturant" class="about-img mt-5">
+                    </div>
+                </div>
+            </div>
+            <div class="row text-light text-center pt-4" id="statistics">
+                <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="100" data-aos-duration="1200">
+                    <p class=" statistics fw-bold fs-1" data-stop="18">0</p>
+                    <p class="statistics-title fs-5">YEARS OF EXPERIENCED</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="250" data-aos-duration="1200">
+                    <p class="statistics fw-bold fs-1" data-stop="100">0</p>
+                    <p class="statistics-title fs-5">MENUS/DISH</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="400" data-aos-duration="1200">
+                    <p class="statistics fw-bold fs-1" data-stop="50">0</p>
+                    <p class="statistics-title fs-5">STAFFS</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="550" data-aos-duration="1200">
+                    <p class="statistics fw-bold fs-1" data-stop="15000">0</p>
+                    <p class="statistics-title fs-5">HAPPY CUSTOMERS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section -->
+    <section class="services text-light py-5">
+        <div class="container">
+            <div class=" special-heading" data-aos="fade-down" data-aos-duration="1500">
+                <h2 class="p-0">Services</h2>
+                <p class="m-0">Catering Services</p>
+            </div>
+            <div class="row pt-5 text-center">
+                <div class="col-12 col-md-4 mb-3 mb-md-0" data-aos="fade-up" data-aos-duration="1500"
+                    data-aos-delay="200">
+                    <img src="images/service-1.png" alt="" class="service-icon mb-3">
+                    <h3 class="mb-3 fw-normal fs-2">Birthday Party</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                        unorthographic.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-3 mb-md-0" data-aos="fade-up" data-aos-duration="1500"
+                    data-aos-delay="500">
+                    <img src="images/service-2.png" alt="" class="service-icon mb-3">
+                    <h3 class="mb-3 fw-normal fs-2">Wedding Party</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                        unorthographic.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-3 mb-md-0" data-aos="fade-up" data-aos-duration="1500"
+                    data-aos-delay="800">
+                    <img src="images/service-3.png" alt="" class="service-icon mb-3">
+                    <h3 class="mb-3 fw-normal fs-2">Business Meetings</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                        unorthographic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- specialties menu section -->
+    <section class="specialties-menu text-light py-5 ">
+        <div class="container">
+            <div class=" special-heading" data-aos="zoom-in-up" data-aos-duration="1500">
+                <h2 class="p-0">Specialties</h2>
+                <p class="m-0">Our Menu</p>
+            </div>
+            <!-- main container -->
+            <div class="row mt-5 mx-0 special-dishes-con">
+                <!-- row 1 -->
+                <div class="col-12 row p-0 mx-auto">
+                    <div class="col-12 col-sm-6 col-lg-3 p-0 overflow-hidden" data-aos="zoom-in-up"
+                        data-aos-duration="1500">
+                        <img src="images/dish-5.webp" alt="menu-item" class="menu-dish">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 p-3" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="fs-5">Grilled Beef <br> with potatoes</h3>
+                            <span class="price fw-bold fs-5">$30</span>
+                        </div>
+                        <p class="mb-3">
+                            Meat, Potatoes, Rice, Tomatoe
+                        </p>
+                        <button class="order py-1 px-3 rounded-2 fw-bold">Order now</button>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 p-0  overflow-hidden" data-aos="zoom-in-up"
+                        data-aos-duration="1500">
+                        <img src="images/dish-6.webp" alt="menu-item" class="menu-dish">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 p-3" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="fs-5">Grilled Beef <br> with potatoes</h3>
+                            <span class="price fw-bold fs-5">$30</span>
+                        </div>
+                        <p class="mb-3">
+                            Meat, Potatoes, Rice, Tomatoe
+                        </p>
+                        <button class="order py-1 px-3 rounded-2 fw-bold">Order now</button>
+                    </div>
+                </div>
+                <!-- row 2 -->
+                <div class="col-12 row d-flex flex-sm-row flex-column-reverse p-0 mx-auto">
+                    <div class="col-12 col-sm-6 col-lg-3 p-3" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="fs-5">Grilled Beef <br> with potatoes</h3>
+                            <span class="price fw-bold fs-5">$30</span>
+                        </div>
+                        <p class="mb-3">
+                            Meat, Potatoes, Rice, Tomatoe
+                        </p>
+                        <button class="order py-1 px-3 rounded-2 fw-bold">Order now</button>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 p-0 overflow-hidden" data-aos="zoom-in-up"
+                        data-aos-duration="1500">
+                        <img src="images/dish-1.webp" alt="menu-item" class="menu-dish">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 p-3" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="fs-5">Grilled Beef <br> with potatoes</h3>
+                            <span class="price fw-bold fs-5">$30</span>
+                        </div>
+                        <p class="mb-3">
+                            Meat, Potatoes, Rice, Tomatoe
+                        </p>
+                        <button class="order py-1 px-3 rounded-2 fw-bold">Order now</button>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 p-0 overflow-hidden" data-aos="zoom-in-up"
+                        data-aos-duration="1500">
+                        <img src="images/dish-2.webp" alt="menu-item" class="menu-dish">
+                    </div>
+                </div>
+                <!-- row 3 -->
+                <div class="col-12 row p-0 mx-auto">
+                    <div class="col-12 col-sm-6 col-lg-3 p-0 overflow-hidden" data-aos="zoom-in-up"
+                        data-aos-duration="1500">
+                        <img src="images/dish-3.webp" alt="menu-item" class="menu-dish">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 p-3" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="fs-5">Grilled Beef <br> with potatoes</h3>
+                            <span class="price fw-bold fs-5">$30</span>
+                        </div>
+                        <p class="mb-3">
+                            Meat, Potatoes, Rice, Tomatoe
+                        </p>
+                        <button class="order py-1 px-3 rounded-2  fw-bold">Order now</button>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 p-0 overflow-hidden" data-aos="zoom-in-up"
+                        data-aos-duration="1500">
+                        <img src="images/dish-4.webp" alt="menu-item" class="menu-dish">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 p-3" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="fs-5">Grilled Beef <br> with potatoes</h3>
+                            <span class="price fw-bold fs-5">$30</span>
+                        </div>
+                        <p class="mb-3">
+                            Meat, Potatoes, Rice, Tomatoe
+                        </p>
+                        <button class="order py-1 px-3 rounded-2 fw-bold">Order now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- reaturant chef section -->
+    <section class="text-light py-5">
+        <div class="container">
+            <div class=" special-heading" data-aos="zoom-in-down" data-aos-duration="1500">
+                <h2 class="p-0">Chef</h2>
+                <p class="m-0">Our Master Chef</p>
+            </div>
+            <!-- chefs container -->
+            <div class="row mt-5">
+                <!-- chef 1  -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="flip-left" data-aos-duration="1500"
+                    data-aos-delay="200">
+                    <div class="chef-img overflow-hidden rounded-3">
+                        <img src="images/chef1.webp" alt="chef-image"">
+                    </div>
+                    <p class=" fs-4 my-2">John Smooth</p>
+                        <span class="text-muted">Restaurant Owner</span>
+                        <div class="d-flex social-icons mt-2">
+                            <a href="#" class="px-1"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="px-1"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="px-1"><i class="bi bi-google"></i></a>
+                            <a href="#" class="px-1"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                    <!-- chef 2 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="flip-right" data-aos-duration="1500"
+                        data-aos-delay="200">
+                        <div class="chef-img overflow-hidden rounded-3">
+                            <img src="images/chef2.webp" alt="chef-image"">
+                    </div>
+                    <p class=" fs-4 my-2">Rebeca Welson</p>
+                            <span class="text-muted">Head Chef</span>
+                            <div class="d-flex social-icons mt-2">
+                                <a href="#" class="px-1"><i class="bi bi-twitter"></i></a>
+                                <a href="#" class="px-1"><i class="bi bi-facebook"></i></a>
+                                <a href="#" class="px-1"><i class="bi bi-google"></i></a>
+                                <a href="#" class="px-1"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                        <!-- chef 3 -->
+                        <div class="col-12 col-md-6 col-lg-3 mb-4 mb-md-0" data-aos="flip-left" data-aos-duration="1500"
+                            data-aos-delay="200">
+                            <div class="chef-img overflow-hidden rounded-3">
+                                <img src="images/chef3.webp" alt="chef-image"">
+                            </div>
+                        <p class=" fs-4 my-2">Kharl Branyt</p>
+                                <span class="text-muted">Chef</span>
+                                <div class="d-flex social-icons mt-2">
+                                    <a href="#" class="px-1"><i class="bi bi-twitter"></i></a>
+                                    <a href="#" class="px-1"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="px-1"><i class="bi bi-google"></i></a>
+                                    <a href="#" class="px-1"><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                            <!-- chef 4 -->
+                            <div class="col-12 col-md-6 col-lg-3" data-aos="flip-right" data-aos-duration="1500"
+                                data-aos-delay="200">
+                                <div class="chef-img overflow-hidden rounded-3">
+                                    <img src="images/chef4.webp" alt="chef-image"">
+                            </div>
+                            <p class=" fs-4 my-2">Luke Simon</p>
+                                    <span class="text-muted">Chef</span>
+                                    <div class="d-flex social-icons mt-2">
+                                        <a href="#" class="px-1"><i class="bi bi-twitter"></i></a>
+                                        <a href="#" class="px-1"><i class="bi bi-facebook"></i></a>
+                                        <a href="#" class="px-1"><i class="bi bi-google"></i></a>
+                                        <a href="#" class="px-1"><i class="bi bi-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+    </section>
+    <!-- booking section -->
+    <section class="booking text-light py-5">
+        <div class="container">
+            <div class="form-layout p-5 rounded-1">
+                <div class=" special-heading" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <h2 class="p-0">Book a table</h2>
+                    <p class="m-0">Make Reservation</p>
+                </div>
+                <form class="mt-5">
+                    <!-- row 1 -->
+                    <div class="row mb-md-4" data-aos="zoom-in-right" data-aos-duration="1200" data-aos-delay="200">
+                        <div class="col-12 col-md-6 mb-3 mb-md-0">
+                            <label for="name" class="form-label fs-5">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Name" class="form-control p-2"
+                                required>
+                        </div>
+                        <div class="col-12 col-md-6 mb-3 mb-md-0">
+                            <label for="email" class="form-label fs-5">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email" class="form-control p-2"
+                                required>
+                        </div>
+                    </div>
+                    <!-- row 2 -->
+                    <div class="row mb-md-4" data-aos="zoom-in-right" data-aos-duration="1200" data-aos-delay="300">
+                        <div class="col-12 col-md-6 mb-3 mb-md-0">
+                            <label for="phone" class="form-label fs-5">Phone</label>
+                            <input type="text" name="phone" id="phone" placeholder="Phone" class="form-control p-2"
+                                required>
+                        </div>
+                        <div class="col-12 col-md-6 mb-3 mb-md-0">
+                            <label for="date" class="form-label fs-5">Date</label>
+                            <input type="text" name="date" id="date" placeholder="Month-Day" class="form-control p-2"
+                                required>
+                        </div>
+                    </div>
+                    <!-- row 3 -->
+                    <div class="row mb-md-4" data-aos="zoom-in-right" data-aos-duration="1200" data-aos-delay="400">
+                        <div class="col-6">
+                            <label for="time" class="form-label fs-5">Time</label>
+                            <select name="time" id="time" class="form-select p-2" required>
+                                <option value="" selected disabled>Pick a time</option>
+                                <option value="11:00am">11:00am</option>
+                                <option value="11:30am">11:30am</option>
+                                <option value="12:00pm">12:00pm</option>
+                                <option value="12:30pm">12:30pm</option>
+                                <option value="1:00pm">1:00pm</option>
+                                <option value="1:30pm">1:30pm</option>
+                                <option value="2:00pm">2:00pm</option>
+                                <option value="2:30pm">2:30pm</option>
+                                <option value="3:00pm">3:00pm</option>
+                                <option value="3:30pm">3:30pm</option>
+                                <option value="4:00pm">4:00pm</option>
+                                <option value=">4:30pm">4:30pm</option>
+                                <option value="5:00pm">5:00pm</option>
+                                <option value="5:30pm">5:30pm</option>
+                                <option value="6:00pm">6:00pm</option>
+                                <option value="6:30pm">6:30pm</option>
+                                <option value="7:00pm">7:00pm</option>
+                                <option value="7:30pm">7:30pm</option>
+                                <option value="8:00pm">8:00pm</option>
+                                <option value="8:30pm">8:30pm</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <label for="persons" class="form-label fs-5">Persons</label>
+                            <select name="time" id="persons" class="form-select p-2" required>
+                                <option value="" selected disabled>Persons</option>
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                                <option value="four">4</option>
+                                <option value="more than four">+4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row pt-4" data-aos="zoom-in-up" data-aos-duration="1200" data-aos-delay="400">
+                        <div class="col text-center">
+                            <input type="submit" value="Make a Reservation" class="submit px-4 py-2 rounded-2">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials section -->
+    <section class="testimonial py-5 text-light">
+        <div class="container">
+            <div class=" special-heading" data-aos="fade-down" data-aos-duration="1500">
+                <h2 class="p-0">Testimonials</h2>
+                <p class="m-0">Happy Customers</p>
+            </div>
+            <!-- carousel -->
+            <div class="owl-carousel owl-theme mt-5" data-aos="zoom-in-up" data-aos-duration="1500">
+                <!-- customer 1 -->
+                <div class="item px-2 d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="customer-img mb-2">
+                        <img src="images/customer1.webp" alt="customer image" class="rounded-circle">
+                        <span class="rounded-circle fs-5 d-flex justify-content-center align-items-center"><i
+                                class="bi bi-quote"></i></span>
+                    </div>
+                    <p class="fs-6 lh-3 px-2 text-white-50">
+                        Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, therelive the blind texts.
+                    </p>
+                    <p class="fs-3 fw-normal">Art Leonard</p>
+                    <span class="text-muted">Customer</span>
+                </div>
+                <!-- customer 2 -->
+                <div class="item px-2 d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="customer-img mb-2">
+                        <img src="images/customer2.webp" alt="customer image" class="rounded-circle">
+                        <span class="rounded-circle fs-5 d-flex justify-content-center align-items-center"><i
+                                class="bi bi-quote"></i></span>
+                    </div>
+                    <p class="fs-6 lh-3 px-2 text-white-50">
+                        Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, therelive the blind texts.
+                    </p>
+                    <p class="fs-3 fw-normal">Jason Henderson</p>
+                    <span class="text-muted">Customer</span>
+                </div>
+                <!-- customer 3 -->
+                <div class="item px-2 d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="customer-img mb-2">
+                        <img src="images/customer3.webp" alt="customer image" class="rounded-circle">
+                        <span class="rounded-circle fs-5 d-flex justify-content-center align-items-center"><i
+                                class="bi bi-quote"></i></span>
+                    </div>
+                    <p class="fs-6 lh-3 px-2 text-white-50">
+                        Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, therelive the blind texts.
+                    </p>
+                    <p class="fs-3 fw-normal">Ian Boner</p>
+                    <span class="text-muted">Customer</span>
+                </div>
+                <!-- customer 4 -->
+                <div class="item px-2 d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="customer-img mb-2">
+                        <img src="images/customer4.webp" alt="customer image" class="rounded-circle">
+                        <span class="rounded-circle fs-5 d-flex justify-content-center align-items-center"><i
+                                class="bi bi-quote"></i></span>
+                    </div>
+                    <p class="fs-6 lh-3 px-2 text-white-50">
+                        Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, therelive the blind texts.
+                    </p>
+                    <p class="fs-3 fw-normal">Mark Stevenson</p>
+                    <span class="text-muted">Customer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blogs -->
+    <section class="blogs py-5 text-light">
+        <div class="container">
+            <div class=" special-heading" data-aos="fade-down" data-aos-duration="1500">
+                <h2 class="p-0">Blog</h2>
+                <p class="m-0">Recent Posts</p>
+            </div>
+            <div class="row mt-5">
+                <!-- blog 1 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-0" data-aos="fade-up" data-aos-duration="1500"
+                    data-aos-delay="100">
+                    <div class="blog-img">
+                        <img src="images/blog1.webp" alt="blog">
+                    </div>
+                    <div class="blog-det px-3 py-4">
+                        <div class="d-flex justify-content-between text-white-50">
+                            <span>Sept. 06, 2021</span>
+                            <span>Admin</span>
+                        </div>
+                        <p class="fs-4 my-3">Taste the delicious foods in Asia</p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="text-white-50">Read more</a>
+                            <a href="#" class="text-white-50"><i class="bi bi-chat-left-text"></i> 5</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog 2 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-0" data-aos="fade-up" data-aos-duration="1500"
+                    data-aos-delay="200">
+                    <div class="blog-img">
+                        <img src="images/blog2.webp" alt="blog">
+                    </div>
+                    <div class="blog-det px-3 py-4">
+                        <div class="d-flex justify-content-between text-white-50">
+                            <span>dec. 15, 2021</span>
+                            <span>Admin</span>
+                        </div>
+                        <p class="fs-4 my-3">Taste the delicious foods in Asia</p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="text-white-50">Read more</a>
+                            <a href="#" class="text-white-50"><i class="bi bi-chat-left-text"></i> 5</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog 3 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-0" data-aos="fade-up" data-aos-duration="1500"
+                    data-aos-delay="300">
+                    <div class="blog-img">
+                        <img src="images/blog3.webp" alt="blog">
+                    </div>
+                    <div class="blog-det px-3 py-4">
+                        <div class="d-flex justify-content-between text-white-50">
+                            <span>jan. 02, 2022</span>
+                            <span>Admin</span>
+                        </div>
+                        <p class="fs-4 my-3">Taste the delicious foods in Asia</p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="text-white-50">Read more</a>
+                            <a href="#" class="text-white-50"><i class="bi bi-chat-left-text"></i> 5</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="py-5 text-light">
+        <div class="container">
+            <div class="row mb-5">
+                <!-- col 1 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1500"
+                    data-aos-delay="100">
+                    <h5>Feliciano</h5>
+                    <p class="mt-5 text-white-50">
+                        Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there
+                        live the blind texts.
+                    </p>
+                    <div class="footer-social d-flex">
+                        <a href="#" class="d-flex justify-content-center align-items-center fs-5 rounded-circle"
+                            data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" class="d-flex justify-content-center align-items-center mx-2 fs-5 rounded-circle"
+                            data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="d-flex justify-content-center align-items-center fs-5 rounded-circle"
+                            data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- col 2 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1500"
+                    data-aos-delay="200">
+                    <h5>Open Hours</h5>
+                    <div class="mt-5 p-0 text-white-50">
+                        <div class="d-flex justify-content-between">
+                            <span>Monday</span>
+                            <span>9:00 - 24:00</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Tuesday</span>
+                            <span>9:00 - 24:00</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Wednesday</span>
+                            <span>9:00 - 24:00</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Thursday</span>
+                            <span>9:00 - 24:00</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Friday</span>
+                            <span>9:00 - 02:00</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Saturday</span>
+                            <span>9:00 - 02:00</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Sunday</span>
+                            <span>9:00 - 02:00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- col 3 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0 overflow-hidden" data-aos="fade-up"
+                    data-aos-duration="1500" data-aos-delay="300">
+                    <h5>Instagram</h5>
+                    <div class="row img-container mt-5">
+                        <div class="col-6 pe-0">
+                            <img src="images/footer1.webp" alt="footer-img">
+                        </div>
+                        <div class="col-6 ps-0">
+                            <img src="images/footer2.webp" alt="footer-img">
+                        </div>
+                        <div class="col-6 pe-0">
+                            <img src="images/footer3.webp" alt="footer-img">
+                        </div>
+                        <div class="col-6 ps-0">
+                            <img src="images/footer4.webp" alt="footer-img">
+                        </div>
+                    </div>
+                </div>
+                <!-- col 4 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1500"
+                    data-aos-delay="400">
+                    <h5>Newsletter</h5>
+                    <p class="my-5 text-white-50">
+                        Far far away, behind the word mountains, far from the countries.
+                    </p>
+                    <div class="subscribe">
+                        <form>
+                            <input type="email" name="sub-mail" id="mail" class="form-control py-2 mb-2"
+                                placeholder="Enter email address">
+                            <input type="submit" value="Subscribe" class="submit form-control py-2">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center m-0 text-white-50 fs-6">
+                Copyright ©2022 All rights reserved
+                <br>
+                Created by <span class="my-name">Omima Khaled</span>
+            </p>
+        </div>
+    </footer>
+    <!-- js files -->
+    <!-- bootstrap js file cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Aos library script cdn -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- scrollout library cdn -->
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- owl carousel cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- main script file -->
+    <script src="js/main.js"></script>
+    <script>
+        // count statistics
+        ScrollOut({
+            targets: "#statistics",
+        });
+        const statisticsArr = Array.from(document.querySelectorAll(".statistics"));
+        const statisticsSection = document.getElementById("statistics");
+        function incrementCount(element) {
+            let stopCount = parseInt(element.dataset.stop);
+            let incrementStats = setInterval(() => {
+                if (parseInt(element.textContent) < parseInt(stopCount)) {
+                    element.innerHTML++;
+                }
+                if (parseInt(element.textContent) === parseInt(stopCount)) {
+                    clearInterval(incrementStats);
+                }
+            }, 5000 / parseInt(stopCount));
+        }
+        window.addEventListener("scroll", () => {
+            if (statisticsSection.dataset.scroll == "in") {
+                statisticsArr.forEach((element) => {
+                    incrementCount(element);
+                });
+            } else if (statisticsSection.dataset.scroll == "out") {
+                statisticsArr.forEach((element) => {
+                    element.textContent = "0";
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
