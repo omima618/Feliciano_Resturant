@@ -29,6 +29,23 @@ if (window.location.href.includes("about")) {
 } else if (window.location.href.includes("booking")) {
     toggleActive(allLinks[5]);
 }
+//
+$(".statistics").each(function () {
+    $(this)
+        .prop("Counter", 0)
+        .animate(
+            {
+                Counter: $(this).text(),
+            },
+            {
+                duration: 5000,
+                easing: "swing",
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                },
+            }
+        );
+});
 // testimonial section carousel
 $(".owl-carousel").owlCarousel({
     loop: true,

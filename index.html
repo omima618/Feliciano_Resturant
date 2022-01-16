@@ -157,22 +157,22 @@
             <div class="row text-light text-center pt-4" id="statistics">
                 <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                     data-aos-delay="100" data-aos-duration="1200">
-                    <p class=" statistics fw-bold fs-1" data-stop="18">0</p>
+                    <p class=" statistics fw-bold fs-1" data-stop="18">18</p>
                     <p class="statistics-title fs-5">YEARS OF EXPERIENCED</p>
                 </div>
                 <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                     data-aos-delay="250" data-aos-duration="1200">
-                    <p class="statistics fw-bold fs-1" data-stop="100">0</p>
+                    <p class="statistics fw-bold fs-1" data-stop="100">100</p>
                     <p class="statistics-title fs-5">MENUS/DISH</p>
                 </div>
                 <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                     data-aos-delay="400" data-aos-duration="1200">
-                    <p class="statistics fw-bold fs-1" data-stop="50">0</p>
+                    <p class="statistics fw-bold fs-1" data-stop="50">50</p>
                     <p class="statistics-title fs-5">STAFFS</p>
                 </div>
                 <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                     data-aos-delay="550" data-aos-duration="1200">
-                    <p class="statistics fw-bold fs-1" data-stop="15000">0</p>
+                    <p class="statistics fw-bold fs-1" data-stop="15000">15000</p>
                     <p class="statistics-title fs-5">HAPPY CUSTOMERS</p>
                 </div>
             </div>
@@ -730,36 +730,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- main script file -->
     <script src="js/main.js"></script>
-    <script>
-        // count statistics
-        ScrollOut({
-            targets: "#statistics",
-        });
-        const statisticsArr = Array.from(document.querySelectorAll(".statistics"));
-        const statisticsSection = document.getElementById("statistics");
-        function incrementCount(element) {
-            let stopCount = parseInt(element.dataset.stop);
-            let incrementStats = setInterval(() => {
-                if (parseInt(element.textContent) < parseInt(stopCount)) {
-                    element.innerHTML++;
-                }
-                if (parseInt(element.textContent) === parseInt(stopCount)) {
-                    clearInterval(incrementStats);
-                }
-            }, 5000 / parseInt(stopCount));
-        }
-        window.addEventListener("scroll", () => {
-            if (statisticsSection.dataset.scroll == "in") {
-                statisticsArr.forEach((element) => {
-                    incrementCount(element);
-                });
-            } else if (statisticsSection.dataset.scroll == "out") {
-                statisticsArr.forEach((element) => {
-                    element.textContent = "0";
-                });
-            }
-        });
-    </script>
 </body>
 
 </html>
